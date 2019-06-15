@@ -9,6 +9,8 @@
 
 // The sum that is closest to the target is 2. (-1 + 2 + 1 = 2)
 
+//Below solution will work in O(n*logn)
+
 public class Solution {
     public int threeSumClosest(ArrayList<Integer> A, int B) {
         
@@ -42,7 +44,8 @@ public class Solution {
             }
         }
         return returnSum;
-        
+
+        //Below is the Not so optimal solution - O(n^3)
         // for(i=0;i<=n-3;i++)
         // {
         //     for(j=i+1;j<=n-2;j++)
