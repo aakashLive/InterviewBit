@@ -2,7 +2,6 @@
 
 // For example, the following two linked lists:
 
-
 // A:          a1 → a2
 //                    ↘
 //                      c1 → c2 → c3
@@ -16,7 +15,9 @@
 // 2. The linked lists must retain their original structure after the function returns.
 // 3. You may assume there are no cycles anywhere in the entire linked structure.
 // 4. Your code should preferably run in O(n) time and use only O(1) memory.
+//=============================================================================================
 
+//Solution:
 {
     public int size(ListNode start)
     {
